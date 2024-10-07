@@ -75,7 +75,3 @@ A class used for serializing the Huffman Tree and encoded data.
 	 ```java
 	 String decodedString = HuffmanCoding.bitDecode(bitSet, endZeroes);
 	 ```
-
-## License
-
-This project is licensed under the MIT License.
