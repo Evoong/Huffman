@@ -2,6 +2,8 @@
 
 This project implements Huffman Coding for data compression through the encoding and decoding of data from a text file using a reference binary tree.
 
+![Huffman Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/1200px-Huffman_tree_2.svg.png)
+
 ## Description
 
 Huffman Coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, with shorter codes assigned to more frequent characters. The steps involved in this project include:
