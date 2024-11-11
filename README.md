@@ -1,10 +1,10 @@
-# Huffman Coding
+# Huffman Compression
 
 ![Huffman Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/1200px-Huffman_tree_2.svg.png)
 
 ## Description
 
-Huffman Coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, with shorter codes assigned to more frequent characters. The steps involved in this project include:
+Huffman is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, with shorter codes assigned to more frequent characters. The steps involved in this project include:
 
 1. **Building a Huffman Tree**: Construct a binary tree where each leaf node represents a character from the input text, and the path from the root to the leaf represents the binary code for that character.
 2. **Encoding**: Convert the input text into a binary string using the Huffman Tree.
@@ -13,7 +13,7 @@ Huffman Coding is a lossless data compression algorithm. The idea is to assign v
 
 ## Classes and Methods
 
-### `HuffmanCoding`
+### `Huffman`
 
 - **Fields**:
 	- `characterList`: List of characters in the input text.
